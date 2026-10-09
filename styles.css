@@ -124,3 +124,8 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+.about {
+  max-width: 720px;
+  padding: 40px 0 80px;
+}
