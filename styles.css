@@ -129,3 +129,17 @@ h2 {
   max-width: 720px;
   padding: 40px 0 80px;
 }
+
+.contact {
+  padding: 40px 0 80px;
+}
+
+.site-footer {
+  border-top: 1px solid #dddddd;
+  padding: 24px 0;
+}
+
+.site-footer p {
+  font-size: 14px;
+  color: #555555;
+}
