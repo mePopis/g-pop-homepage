@@ -112,20 +112,6 @@ h2 {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
-  body {
-    padding: 24px;
-  }
-
-  .hero h1 {
-    font-size: 42px;
-  }
-
-  .service-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .about {
   max-width: 720px;
   padding: 40px 0 80px;
@@ -177,3 +163,29 @@ a:focus-visible {
   outline: 3px solid #6d28d9;
   outline-offset: 4px;
 } 
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px;
+  }
+
+  .site-header {
+    margin-bottom: 32px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero,
+  .services,
+  .portfolio,
+  .about,
+  .contact {
+    padding: 24px 0;
+  }
+}
