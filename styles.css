@@ -139,7 +139,9 @@ h2 {
   max-width: 720px;
   background-color: #ffffff;
   padding: 28px;
-  border-radius: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   margin-top: 32px;
 }
 
@@ -171,6 +173,8 @@ a:focus-visible {
   object-fit: cover;
   object-position: top;
   border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   margin-bottom: 24px;
 }
 
