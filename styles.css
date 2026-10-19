@@ -164,6 +164,16 @@ a:focus-visible {
   outline-offset: 4px;
 } 
 
+.project-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 24px;
