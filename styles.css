@@ -36,16 +36,21 @@ p {
 
 nav {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 nav a {
-  color: #222222;
+  display: inline-block;
+  padding: 8px 12px;
+  color: #6d28d9;
+  border: 1px solid #6d28d9;
+  border-radius: 8px;
   text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #f3edff;
 }
 
 .hero {
