@@ -7,6 +7,10 @@ and the skills I’m developing with HTML, CSS and JavaScript.
 
 [Visit the G Pop portfolio](https://mepopis.github.io/g-pop-homepage/)
 
+## Preview
+
+![G Pop portfolio homepage showing the introduction and skills cards](assets/images/g-pop-portfolio-desktop.png)
+
 ## Features
 
 - Responsive layout for desktop and mobile screens
